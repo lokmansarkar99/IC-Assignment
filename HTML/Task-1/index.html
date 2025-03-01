@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learning and Earning Monitoring System: Welcome</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      h2 {
+        color: #ec8701;
+        margin: 0;
+        border-bottom: 1px solid #ddd;
+      }
+
+      h3 {
+        margin: 0;
+        white-space: nowrap;
+        font-weight: lighter;
+      }
+      label {
+        color: #666666;
+      }
+      .section-container {
+        padding: 20px 80px;
+        background-color: #fff;
+      }
+
+      nav {
+        background: -webkit-linear-gradient(#ffffff, #f1f0f0);
+      }
+      nav span {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      nav img {
+        width: 120px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 8px;
+
+        display: flex;
+        gap: 15px;
+        border-top: 1px solid #ddd;
+      }
+      nav ul li {
+        cursor: pointer;
+        font-weight: bold;
+        flex-shrink: inherit;
+        padding: 8px 15px;
+      }
+
+      nav ul :hover {
+        background-color: #c9c7c7;
+      }
+      .form-container {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+
+        background-color: #fff;
+      }
+      form {
+        width: 45%;
+        padding: 15px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+      }
+      .form-group {
+        margin-bottom: 12px;
+      }
+      label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+      }
+      input,
+      select {
+        width: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+      }
+      .inline-radio {
+        display: inline-block;
+        margin-right: 15px;
+      }
+      small {
+        font-size: 12px;
+        color: #555;
+      }
+
+      button {
+        background: linear-gradient(top, #fefefe, #d8d8d8);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#d8d8d8');
+        border: 1px solid #cbcbcb;
+        padding: 3px 12px 6px 12px;
+        cursor: pointer;
+        font-size: 120%;
+        margin-top: 6px;
+        box-shadow: 0 2px 2px rgba(255, 255, 255, 0.4) inset,
+          0 -2px 1px rgba(0, 0, 0, 0.2) inset, 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .rel-text {
+        padding-bottom: 0;
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .dashed {
+        flex-grow: 1;
+        height: 1px;
+        border-bottom: 1px dashed #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="section-container menu" style="padding-top: 0">
+      <span>
+        <img src="./img/ictdd.png" alt="ictdd" />
+        <img src="./img/ledp-re.png" alt="ledp" />
+        <img src="./img/a2i-logo.png" alt="a2i-logo" />
+      </span>
+      <ul>
+        <li>Home</li>
+        <li>Course Module</li>
+        <li>Class Schedule</li>
+        <li>Success Story</li>
+        <li>Attendence</li>
+        <li>FAQ</li>
+        <li>Login</li>
+      </ul>
+    </nav>
+
+    <section class="section-container">
+      <h2>Student Registration Form</h2>
+    </section>
+
+    <section class="section-container rel-text">
+      <h3>Please Enter Relavent Information</h3>
+      <div class="dashed"></div>
+    </section>
+
+    <section class="section-container form-container" style="padding-top: 10px">
+      <!-- Form 1 -->
+      <form>
+        <small>Mandatory Field *</small>
+
+        <div class="form-group">
+          <label>Institute District *</label>
+          <select>
+            <option value="">--Select One--</option>
+            <option>Dhaka</option>
+            <option>Narayanganj</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Course *</label>
+          <select>
+            <option value="">--Select One--</option>
+            <option>Web Design & Development</option>
+            <option>Graphic Design</option>
+            <option>Digital Marketing</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Student Name *</label>
+          <input type="text" />
+        </div>
+
+        <div class="form-group">
+          <label>Father Name *</label>
+          <input type="text" />
+        </div>
+
+        <div class="form-group">
+          <label>Mother Name *</label>
+          <input type="text" />
+        </div>
+
+        <div class="form-group">
+          <label>Date of Birth *</label>
+          <select style="width: 32%">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <select style="width: 32%">
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+            <option>Apr</option>
+            <option>May</option>
+          </select>
+          <select style="width: 32%">
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Gender *</label>
+          <label class="inline-radio"
+            ><input type="radio" name="gender" /> Male</label
+          >
+          <label class="inline-radio"
+            ><input type="radio" name="gender" /> Female</label
+          >
+        </div>
+
+        <div class="form-group female-only">
+          <label
+            >Did you participate in 15 days literacy training of LEDP? (Only for
+            Female)</label
+          >
+          <label class="inline-radio"
+            ><input type="radio" name="ledp_training" /> Yes</label
+          >
+          <label class="inline-radio"
+            ><input type="radio" name="ledp_training" /> No</label
+          >
+        </div>
+
+        <div class="form-group">
+          <label>Physically Handicapped *</label>
+          <label class="inline-radio"
+            ><input type="radio" name="handicapped" /> No</label
+          >
+          <label class="inline-radio"
+            ><input type="radio" name="handicapped" /> Yes</label
+          >
+        </div>
+
+        <div class="form-group">
+          <label>Email *</label>
+          <input type="email" placeholder="example@mail.com" />
+        </div>
+
+        <div class="form-group">
+          <label>Phone (11 Digits) *</label>
+          <input type="text" placeholder="0155123456" />
+        </div>
+      </form>
+
+      <!-- Form 2 -->
+      <form>
+        <div class="form-group">
+          <label>Identification Type *</label>
+          <select>
+            <option value="">--Select One--</option>
+            <option>National ID</option>
+            <option>Birth Certificate</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Identification No. *</label>
+          <input type="text" placeholder="10 or 17 digits" />
+          <small>If 13 digits, add birth year (e.g., 1980XXXXXXXXXXXXX).</small>
+        </div>
+
+        <div class="form-group">
+          <label>Home District *</label>
+          <select>
+            <option value="">--Select One--</option>
+            <option>Dhaka</option>
+            <option>Chittagong</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Upazilla *</label>
+          <select>
+            <option value="">--Select Upazilla--</option>
+            <option>Upazilla 1</option>
+            <option>Upazilla 2</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Village/House No./Road No./Other Alternative *</label>
+          <input type="text" />
+        </div>
+
+        <div class="form-group">
+          <label>Post Office *</label>
+          <input type="text" />
+        </div>
+
+        <div class="form-group">
+          <label>Educational Qualification *</label>
+          <select>
+            <option value="">--Select One--</option>
+            <option>Higher Secondary</option>
+            <option>Bachelor</option>
+            <option>Master</option>
+            <option>PhD</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Do you have any computer? *</label>
+          <label class="inline-radio"
+            ><input type="radio" name="computer" /> Yes</label
+          >
+          <label class="inline-radio"
+            ><input type="radio" name="computer" /> No</label
+          >
+        </div>
+
+        <div class="form-group">
+          <label>Photograph *</label>
+          <input type="file" accept=".jpg,.jpeg,.png" />
+          <small>File type: jpg, jpeg, png. Max size: 2MB.</small>
+        </div>
+
+        <div class="form-group">
+          <label>Signature *</label>
+          <input type="file" accept=".jpg,.jpeg,.png" />
+          <small>File type: jpg, jpeg, png. Max size: 2MB.</small>
+        </div>
+
+        <div class="form-group">
+          <button type="submit">Submit Data</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
