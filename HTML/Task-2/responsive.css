@@ -1,0 +1,373 @@
+/* ================= Desktop (1025px and above) ================= */
+@media (min-width: 1025px) {
+    .hamburger-menu,
+    .close-menu {
+        display: none !important;
+    }
+
+
+    header nav {
+        display: flex;
+    }
+
+    .search {
+        display: block;
+    }
+}
+
+/* ================= Tablet and Mobile (1024px and below) ================= */
+@media (max-width: 1024px) {
+    /* Header adjustments */
+    .container{
+        padding: 2vw
+    }
+
+    header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 8vw;
+    }
+
+    header .logo {
+        flex-grow: 1;
+    }
+
+    header nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 1000;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 3vw;
+        text-align: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+        color: white;
+    }
+
+    .hamburger-menu {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: #2d2f30;
+        z-index: 1100;
+    }
+
+    .close-menu {
+        display: none;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        font-size: 32px;
+        color: white;
+        cursor: pointer;
+        z-index: 1101;
+    }
+
+    /* Show/Hide Menu */
+    nav.show-menu {
+        display: flex;
+    }
+
+    .close-menu.show-close {
+        display: block;
+    }
+
+    /* Hide search icon on tablet & mobile */
+    .search {
+        display: none;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        
+        text-align: center;
+        padding: 5vw 8vw;
+        
+    }
+
+    .hero-section .text {
+        width: 100%;
+    }
+
+    .hero-section .text h1 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    .hero-section .text p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .hero-section .image img {
+        width: 100%;
+    }
+
+    /* Services Section */
+    .services {
+        flex-direction: column;
+        padding: 5vw 8vw;
+    }
+
+    .services .service-text,
+    .services .service-service {
+        width: 100%;
+    }
+
+    .services .service-service {
+        
+        gap: 4vw;
+    }
+
+    .services .service-card {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Count Section */
+    .count-section {
+        padding: 5vw 8vw;
+    }
+
+    .count-section .count-count {
+        
+        gap: 4vw;
+    }
+
+  
+
+    /* Testimonial Section */
+    .client-testimonial .testimonials {
+        width: 100%;
+        gap: 4vw;
+    }
+
+    .client-testimonial .testimonial {
+        width: 100%;
+    }
+
+    /* Question Section */
+    .question-section {
+        flex-direction: column;
+        gap: 4vw;
+        padding: 5vw 8vw;
+    }
+
+    .question-section .question-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .question-section .question-photo img {
+        width: 100%;
+    }
+
+    /* Footer */
+    footer .main-footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3vw;
+    }
+
+    /* Social & Copyright */
+  
+
+    .social-media a {
+        font-size: 24px;
+        margin: 0 10px;
+    }
+}
+
+/* ================= Mobile Only (768px and below) ================= */
+@media (max-width: 768px) {
+.container {
+    padding: 20px 15px 20px 15px; 
+}
+
+/* Hero Section  */
+.hero-section{
+    flex-direction: column;
+}
+
+.hero-section .text{
+    gap: 20px;
+}
+
+    .hero-section .text h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .hero-section .text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .hero-section .text div a {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+/* Services Section */
+
+
+.services .service-text{
+    width: 100%;
+}
+.services .service-text h1{
+    font-weight: 700;
+font-size: 28px;
+line-height: 43.98px;
+
+}
+
+.services .service-text p {
+    
+    font-size: 18px;
+    line-height: 26px;
+ 
+}
+
+.services .service-service {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.services .service-service .service-card {
+    background-color: #FCFCFC;
+    
+   width: 70%;
+    min-height:200px;
+    padding: 2vw;
+}
+/* Count Section */
+.count-section {
+   
+}
+
+.count-section .count-text h1 {
+    
+    
+    font-size: 32px;
+
+}
+
+    .count-section .count-count {
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+
+/* Testimonial section */
+
+.client-testimonial h1 {
+   
+   
+    font-size: 36px;
+}
+  
+
+.client-testimonial .testimonials {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0vw;
+    gap: 40px;
+}
+
+.client-testimonial .testimonials .testimonial {
+    width: 80%;
+    display: flex;
+    
+    row-gap: 2vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Question Section */
+
+.question-section{
+    gap: 40px;
+}
+
+.question-section .question-text {
+    width: 80%;
+    margin: auto;
+   text-align: center;
+    gap: 20px;
+}
+
+.question-section .question-text h1 {
+   
+    font-size: 32px;
+   
+}
+
+.question-section .question-text p {
+   
+    font-size: 18px;
+   
+}
+.question-photo{
+    width: 80%;
+    margin: auto;
+}
+
+    footer .main-footer {
+        grid-template-columns: 1fr;
+        width: 100%;
+       ;
+    }
+
+
+    .copyright {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+      
+}
+
+.social-media i {
+    font-size: 14px;
+    margin: 0 ;
+}
+
+}
+
+@media(max-width: 1400px) {
+    .container{
+        padding: 10px;
+    }
+    .hero-section .text h1 {
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 80px;
+        letter-spacing: 2%;
+        color: #094b72;
+    }
+    .container.hero-section{
+        padding: 0;
+    }
+}
