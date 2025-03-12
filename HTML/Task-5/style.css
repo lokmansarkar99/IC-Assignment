@@ -1,0 +1,393 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.top-main{
+  background-color: #F6EBDA;
+  min-height: 90vh;
+  position: relative;
+ padding-bottom: 200px;
+  
+}
+
+.img-top{
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+
+.img-bottom{
+  position: absolute;
+ left: 0;
+ bottom: 0px;
+  z-index: 1;
+}
+
+.container {
+  padding: 2vw 8vw 2vw 8vw;
+}
+
+/* Header Section Start */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 4vw;
+}
+
+header nav ul li a {
+  text-decoration: none;
+ 
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+color: black;
+
+}
+
+header nav ul li a.about{
+color: #FF902B;
+}
+
+
+.search input{
+outline: none;
+background-color: #fff;
+border: none;
+border-radius: 30px;
+padding:8px 20px;
+
+
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-align: center;
+
+
+}
+
+.search img{
+  width: 20px;
+  position: relative;
+  left: 40px;
+  top: 5px;
+
+ 
+  
+}
+
+/* Hero Section  */
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  
+}
+
+
+.hero-section .text {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+.hero-section .text h1 {
+
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+color: black;
+width: 70%;
+
+
+
+
+
+}
+
+.hero-section .text h1 span {
+  color: #FF902B;
+} 
+
+
+
+.hero-section .text p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #7E7D7A;
+  width: 50%;
+  
+}
+
+
+.hero-section .text .button{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+gap: 30px;
+
+}
+
+.hero-section .text .button a {
+background-color: #2F2105;
+padding: 12px 22px;
+border-radius: 30px;
+
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+
+
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 6px;
+
+
+}
+
+.hero-section .text .button a:hover {
+ 
+}
+
+.hero-section .text .button small{
+  font-family: "Poppins", sans-serif;
+font-weight: 700;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #F4AE26;
+
+}
+
+.hero-section .text h3 {
+
+}
+
+
+.hero-section .image{
+  width: 50%;
+  position: relative;
+}
+
+.hero-section .image .cg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2F2105;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+.hero-section .image .cg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2F2105;
+  border-radius: 50%;
+  width: 500px; /* Ensure it's a perfect square */
+  height: 500px; /* Ensure it's a perfect square */
+  overflow: hidden; /* Ensures the image does not overflow */
+
+  position: relative;
+  z-index: 1;
+}
+
+.hero-section .image div img {
+  width: 100%;
+ 
+  object-fit: cover; /* Ensures the image covers the circle without distortion */
+   /* Makes the image itself rounded */
+}
+
+
+.cappu {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 283px;
+  height: 69px;
+  border-radius: 42px;
+  background: linear-gradient(92.95deg, rgba(255, 255, 255, 0.4) 0.82%, rgba(255, 255, 255, 0.7) 96.47%);
+  backdrop-filter: blur(4px);
+  
+
+
+  
+}
+
+.hero-section .image .cappu p{
+  height: 83%;
+  width: 93%;
+  background-color: #fff;
+  border-radius: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  
+
+}
+
+.hero-section .image .cappu1 {
+position: absolute;
+top: 40px;
+left: -60px;
+z-index: 2;
+}
+
+.hero-section .image .cappu2 {
+  width: 155px;
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  z-index: 3;
+  }
+
+
+   .cappu3 {
+    width: 150px;
+    position: absolute;
+    z-index: 4;
+    top: 100px;
+    right: 50px;
+    }
+
+.popular{
+
+  position: relative;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular-bg{
+  background-color: #F9D9AA;
+  width: 85vw;
+ 
+
+ height: 300px;
+  border-radius: 40px;
+
+  position: absolute;
+  top: -100px;
+
+  
+}
+
+.inner{
+  width: 100%;
+  position: absolute;
+  top: -100px;
+  display: flex;
+  justify-content: space-around;
+ 
+
+}
+
+
+.inner-item{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  
+}
+
+.inner-item .cappu3 {
+  background-color: #fff;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 2px solid rgb(233, 228, 228);
+}
+
+.inner .inner-title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner .order{
+  display: flex ;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.inner .order .type{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.inner .order .type p{
+  border:2px solid #FF902B ;
+ padding: 5px 22px;
+ text-align: center;
+ border-radius: 15px;
+
+}

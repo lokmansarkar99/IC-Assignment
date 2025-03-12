@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawyer Landing Page </title>
+     <link rel="stylesheet" href="./style.css">  
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="top-main">
+<img src="./img/bg_img_hero.svg" alt="coffe" class="img-top">
+
+    <!-- Header Section -->
+
+    <header class="container">
+        <div class="logo">
+            <img src="./img/logo_coffe.svg" alt="Logo">
+        </div>
+        <div class="hamburger-menu" ">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="close-menu" >
+            <i class="fas fa-times"></i>
+        </div>
+
+        <nav>
+            <ul>
+          
+                <li><a href="#" class="about">About us</a></li>
+                <li><a href="#">Our Product</a></li>
+                <li><a href="#">Delivery</a></li>
+               
+            </ul>
+        </nav>
+        <div class="search">
+            <img src="./img/akar-icons_search.svg" alt="search">  <input type="text" placeholder="Cappuccino "> 
+        </div>
+
+        <div class="cart">
+            <img src="./img/icons_cart.svg" alt="cart">
+        </div>
+    </header>
+
+<!-- Hero Section -->
+ <section class="container hero-section">
+    <div class="text">
+
+
+<h1>Enjoy your <span>coffee</span> before your activity</h1>
+<p>Boost your productivity and build your mood with a glass of coffee in the morning </p>
+
+<div class="button">
+    <a> <span>Order Now </span> <img src="./img/onb.svg" alt="onb"> </a>
+    <small>More Menu</small>
+</div>
+
+    </div>
+
+    <div class="image">
+        <div class="cg">
+            <img src="./img/cg.png" alt="cg">
+            
+        </div>
+
+        <div class="cappu cappu1"><p>Cappuccino</p></div>
+        <div class="cappu cappu2"><p> 18K</p></div>
+        <div class="cappu cappu3"><p> 4.8  &nbsp; <i class="fa-solid fa-star" style="color: #FFD43B;"></i></p></div>
+
+     </div>
+     
+ </section>
+
+ <img src="./img/bg_img_hero.svg" alt="coffe" class="img-bottom">
+
+</section>
+
+
+
+
+
+ <section class="popular container">
+
+<div class="popular-bg">
+    <div class="inner">
+
+        <div class="inner-item">
+            <div class="inner-image">
+                <img src="./img/img_product.png" alt="img_product">
+                <div class="cappu cappu3"><p> 4.8  &nbsp; <i class="fa-solid fa-star" style="color: #FFD43B;"></i></p></div>
+            </div>
+
+            <div class="inner-title">
+                <h2>Vanilla Latte</h2>
+                <h2>21K</h2>
+            </div>
+
+            <div class="order">
+                <div class="type">
+                    <p>Hot</p>
+                    <p>Cold</p>
+                </div>
+                <div><img src="./img/order.svg" alt="order"></div>
+            </div>
+        </div>
+        
+        <div class="inner-item">
+            <div class="inner-image">
+                <img src="./img/img_product (1).png" alt="img_product">
+                <div class="cappu cappu3"><p> 4.8  &nbsp; <i class="fa-solid fa-star" style="color: #FFD43B;"></i></p></div>
+            </div>
+
+            <div class="inner-title">
+                <h2>Espresso</h2>
+                <h2>12K</h2>
+            </div>
+
+            <div class="order">
+                <div class="type">
+                    <p>Hot</p>
+                    <p>Cold</p>
+                </div>
+                <div><img src="./img/order.svg" alt="order"></div>
+            </div>
+        </div>
+
+
+        <div class="inner-item">
+            <div class="inner-image">
+                <img src="./img/img_product (2).png" alt="img_product">
+                <div class="cappu cappu3"><p> 4.8  &nbsp; <i class="fa-solid fa-star" style="color: #FFD43B;"></i></p></div>
+            </div>
+
+            <div class="inner-title">
+                <h2>Hazelnut Latte</h2>
+                <h2>23K</h2>
+            </div>
+
+            <div class="order">
+                <div class="type">
+                    <p>Hot</p>
+                    <p>Cold</p>
+                </div>
+                <div><img src="./img/order.svg" alt="order"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+ </section>
+
+
+<script>
+    const hamburger = document.querySelector('.hamburger-menu');
+const closeMenu = document.querySelector('.close-menu');
+const nav = document.querySelector('header nav');
+
+hamburger.addEventListener('click', () => {
+    nav.classList.add('show-menu');
+    closeMenu.classList.add('show-close');
+});
+
+closeMenu.addEventListener('click', () => {
+    nav.classList.remove('show-menu');
+    closeMenu.classList.remove('show-close');
+});
+
+</script>
+</body>
+</html>

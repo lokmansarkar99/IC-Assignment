@@ -1,0 +1,239 @@
+/* ================= Desktop (1025px and above) ================= */
+@media (min-width: 1025px) {
+    .hamburger-menu,
+    .close-menu {
+        display: none !important;
+    }
+
+
+    header nav {
+        display: flex;
+    }
+
+    .search {
+        display: block;
+    }
+}
+
+/* ================= Tablet and Mobile (1024px and below) ================= */
+@media (max-width: 1024px) {
+    /* Header adjustments */
+    .container{
+        padding: 8vw
+    }
+
+    .top-main img{
+        width: 50%;
+    }
+
+    .hero-section .image .cg {
+width: 50vh;
+height: 50vh;
+        
+    }
+    .inner {
+        flex-direction: column;
+        
+            }
+
+
+    header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 8vw;
+    }
+
+    header .logo {
+        flex-grow: 1;
+    }
+
+    header nav {
+        display: none;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 1000;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 3vw;
+        text-align: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+        color: white;
+    }
+
+    .hamburger-menu {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: #2d2f30;
+        z-index: 1100;
+    }
+
+    .close-menu {
+        display: none;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        font-size: 32px;
+        color: white;
+        cursor: pointer;
+        z-index: 1101;
+    }
+
+    /* Show/Hide Menu */
+    nav.show-menu {
+        display: flex;
+    }
+
+    .close-menu.show-close {
+        display: block;
+    }
+
+    /* Hide search icon on tablet & mobile */
+    .search {
+        display: none;
+    }
+
+    .cart {
+        display: none;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        
+        text-align: center;
+        padding: 5vw 8vw;
+        
+    }
+
+    .hero-section .text {
+        width: 100%;
+    }
+
+    .hero-section .text h1 {
+        width: 70%;
+        margin: auto;
+        font-size: 42px;
+        line-height: 52px;
+        colo
+    }
+
+    .hero-section .text p {
+        width: 70%;
+        margin: auto;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .hero-section .image {
+        width: 100%;
+    }
+
+    
+
+    /* Footer */
+    footer .main-footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3vw;
+    }
+
+    /* Social & Copyright */
+  
+
+    .social-media a {
+        font-size: 24px;
+        margin: 0 10px;
+    }
+}
+
+/* ================= Mobile Only (768px and below) ================= */
+@media (max-width: 768px) {
+    .top-main .container {
+    padding: 20px 15px 20px 15px; 
+
+    
+}
+
+
+
+/* Hero Section  */
+.top-main  .hero-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.top-main  .hero-section .text{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .text .button {
+    width: 100%;
+
+}
+.hero-section .text .button a {
+  
+    padding: 1px 20px;
+    gap: 0;
+}
+
+
+.hero-section .image .cg {
+
+}
+
+
+.top-main .hero-section .text{
+    gap: 20px;
+    
+}
+ .top-main   .hero-section .text h1 {
+        font-size: 26px;
+        line-height: 46px;
+    }
+
+.top-main  .hero-section .text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+
+    .inner {
+flex-direction: column;
+    }
+
+
+
+
+}
+
+@media(max-width: 1400px) {
+    .container{
+        padding: 10px;
+    }
+
+    .container.hero-section{
+        padding: 0;
+    }
+}
