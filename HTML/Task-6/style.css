@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+:root {
+    --orange: hsl(26, 100%, 55%);
+    --PaleOrange: hsl(25, 100%, 94%);
+    --GrayishBlue: hsl(220, 14%, 75%);
+    --gray: hsl(220, 13%, 13%);
+  }
+  
+body{
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+
+
+
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+header{
+
+    
+    justify-content: space-between;
+    display: flex;
+  height: 100px;
+  align-items: center;
+  border-bottom: 1px solid var(--GrayishBlue);
+}
+
+header .menu, .menu-close{
+    border: none;
+    display: none;
+}
+
+
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--gray);
+    
+}
+
+
+header .cart, .avatar{
+    width: 25px;
+}
+
+
+.product {
+   
+    display: flex;
+   
+    gap: 60px;
+    
+  
+padding: 60px 40px 0px 40px;
+}
+
+.product .product-image{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ 
+    
+}
+
+
+.product .product-image .image-main img{
+    width: 400px;
+    border-radius: 20px;
+    
+}
+
+.product .product-image .image-thumb{
+    margin-top: 20px;
+   
+    display: flex;
+    gap: 40px;
+   
+}
+
+
+.product .product-image .image-thumb img{
+    width: 70px;
+    border-radius: 15px;
+    border: 3px solid var(--orange);
+}
+
+
+.product .product-desc {
+    width: 50%;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.product .product-desc h6  {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: hsl(219, 9%, 45%);
+    line-height: 40px;
+}
+
+.product .product-desc h1  {
+font-size: 50px;
+    line-height: 55px;
+    padding-bottom: 30px;
+    color: hsl(220, 13%, 13%);
+}
+
+
+.product .product-desc p{
+    color: hsl(219, 9%, 45%);
+    font-size: 18px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+
+.product .product-desc h3 span{
+    font-size: 16px;
+    padding: 0 5px;
+    position: relative;
+    left: 5px;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+}
+
+.product .product-desc del {
+    color: hsl(219, 9%, 45%);
+    padding: 10px 0;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.product .product-desc .add-to-cart{
+    display: flex ;
+        
+        gap: 10px;
+}
+
+.product .product-desc .add-to-cart .count{
+    flex: 1;
+    background-color: hsl(223, 64%, 98%);
+    display: flex
+;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.product .product-desc .add-to-cart .count button{
+    font-size: 30px;
+    padding: 0px 30px;
+    background-color: transparent;
+    border: none;
+    color: var(--orange);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.product .product-desc .add-to-cart .count span{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.product .product-desc .add-to-cart .cart-btn{
+    
+flex-grow: 2;
+}
+
+.product .product-desc .add-to-cart .cart-btn button{
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    background-color: var(--orange);
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 10px;
+}
+

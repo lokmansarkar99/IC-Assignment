@@ -1,0 +1,128 @@
+@media (max-width: 767px) {
+   
+
+.container{
+    width: 100%;
+}
+
+
+/* ====HEADER RESPONSIVE ==== */
+
+
+
+header{
+    justify-content: space-around;
+}
+
+/* Hide menu and close button by default */
+header nav {
+    display: none;
+    
+}
+
+.menu-close {
+    display: none;
+}
+
+/* Show menu button by default */
+header .menu {
+    display: block;
+}
+
+
+
+
+/* Show menu when active */
+.menu-open.active {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 50%;
+    height: 100vh;
+    width: 50%;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+
+
+
+.menu-open ul {
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.menu-open ul li a {
+   font-size: 24px;
+   font-weight: 700;
+}
+
+
+/* Hide close button by default */
+.menu-close {
+    display: none;  
+    position: absolute;
+    top: 30px;
+    right: 55%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 99;
+}
+
+/* Ensure it shows when active */
+.menu-close.active {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====PRODUCT RESPONSIVE ==== */
+
+    .product {
+     flex-direction: column;
+        padding: 60px 20px 0px 20px;
+
+    }
+
+
+    .product .product-image {
+        width: 90%;
+        
+        flex-wrap: wrap;
+        
+   
+    }
+
+
+
+
+    .product .product-desc {
+     width: 100%;
+     
+    }
+
+
+    .product .product-desc h1 {
+        font-size: 36px;
+        line-height: 55px;
+        padding-bottom: 10px;
+        color: hsl(220, 13%, 13%);
+    }
+
+  }
