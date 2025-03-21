@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+ width: 90%;
+ margin: 0 auto;
+ padding: 40px 0;
+}
+
+/* Header Section Start */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 3vw;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 1.5px;
+  color: #2d2f30;
+
+  font-weight: 500;
+}
+
+header .logo img{
+  width: 110px;
+}
+
+
+header .sl-btn a{
+ 
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-decoration: none;
+  
+}
+header #signup{
+  color: #000000;
+  margin-right: 10px;
+}
+
+header #login{
+  color: #fff;
+  background-color: #54B8FF;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+
+/* Hero Section  */
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.hero .hero-text{
+  display: flex;
+  flex-direction: column;
+ gap: 20px;
+ flex: 1;
+}
+
+
+.hero .hero-text h6{
+ 
+font-weight: 500;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 23.5%;
+color: #2F2B71;
+
+}
+
+.hero .hero-text h1{
+ width: 70%;
+font-weight: 700;
+font-size: 70px;
+line-height: 115%;
+letter-spacing: 0%;
+color: #5F596E;
+
+}
+
+.hero .hero-text p{
+  width: 60%;
+font-weight: 500;
+font-size: 20px;
+line-height: 156%;
+letter-spacing: 5%;
+color: #000000;
+
+}
+
+.hero .hero-text a{
+ text-decoration: none;
+font-weight: 600;
+font-size: 18px;
+line-height: 104%;
+letter-spacing: 10.5%;
+
+  background-color: #54B8FF;
+  color: #fff;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+}
+
+
+/* ====BEST TEACHER ==== */
+.best-teacher {
+  min-height: 700px;
+  display: flex;
+  
+ 
+  background-color: #fefefe ;
+}
+
+.teacher-cards {
+flex: 1;
+position: relative;
+}
+
+.teacher-cards .congrats{
+  width: 226px;
+  height: 70px;
+  border-radius: 14px;
+  background-color: #FFFDFA;
+  box-shadow: 2px 17px 11px 3px rgba(237,230,237,1);
+  display: flex;
+  gap: 10px;
+  padding: 8px;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  z-index: 1;
+
+  
+}
+
+.teacher-cards .congrats img{
+  width: 40px;
+}
+
+.teacher-cards .congrats .congrats-text{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+} 
+
+.teacher-cards .statis{
+  width:280px ;
+  height: 340px;
+  background-color: #FFFDFA;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 2px 17px 11px 3px rgba(237,230,237,1);
+
+  position: absolute;
+  top: -30px;
+  left: 250px;
+  z-index: 2;
+}
+
+.teacher-cards .statis img{
+  width: 120px;
+}
+
+.teacher-cards .statis .percent{
+ 
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+
+}
+
+.teacher-cards .statis .percent .first{
+  background-color: #FFF3D4;
+  width: 102px;
+  height: 64px;
+}
+
+.teacher-cards .statis .percent .second{
+  background-color: #DCFFEE;
+  width: 102px;
+  height: 64px;
+}
+
+
+.teacher-cards .level{
+  width: 344px;
+  height: 414px;
+  background-color: #fff;
+  box-shadow: 2px 17px 11px 3px rgba(237,230,237,1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 100px;
+}
+
+.teacher-cards .level h6{
+  font-family: "Inter", sans-serif;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FF733B;
+
+}
+
+.teacher-cards .level h3{
+  font-family: "Inter", sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: background: #04004D;
+
+
+}
+
+.teacher-cards .level h4{
+  font-family: "Google Sans", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color:  #898E92;
+
+
+}
+
+.teacher-cards .join{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+
+}
+
+.teacher-cards .join a{
+  /* width: 90px;
+  height: 24px; */
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 20px;
+  font-family: "Inter", sans-serif;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: #fff;
+background-color: #367166;
+border-radius: 5PX;
+
+}
+
+
+
+
+.best-teacher .teacher-info{
+ flex: 1;
+ 
+ display: flex;
+ flex-direction: column;
+ gap: 25px;
+}
+
+.best-teacher .teacher-info h1{
+  width: 80%;
+  font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 50px;
+line-height: 62px;
+letter-spacing: 0%;
+color:  #04004D;
+
+
+}
+
+
+.best-teacher .teacher-info p{
+  font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0%;
+color: #336C61;
+
+}
+
+.best-teacher .teacher-info a, i{
+  color: #336C61;
+  text-decoration: none;
+}
+
+
+
+/* ====FEATURES ==== */
+.features{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.features .feature{
+  
+
+  width: 290px;
+  height: 278px;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}

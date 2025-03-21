@@ -1,0 +1,166 @@
+@media screen and (min-width: 460px) and (max-width: 630px) {
+  .hero-img{
+    min-height: 720px;
+    position: relative;
+    z-index: 999;
+  }
+
+}
+
+@media screen and (min-width: 631px) and (max-width: 767px) {
+  .hero-img{
+    min-height: 800px;
+    position: relative;
+    z-index: 999;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .hero-img{
+    min-height: 1000px;
+    position: relative;
+    z-index: 999;
+  }
+
+}
+
+
+@media screen and (min-width: 992px) {
+
+
+/* ====HEADER ==== */
+#menu-btn{
+  display: none;
+}
+
+header{
+padding: 0px 60px;
+align-items: center;
+
+}
+
+
+.logo{
+  
+  object-fit: contain;
+}
+
+header nav  {
+  display: block;
+  position: static;
+  width: inherit;
+  
+}
+
+header nav ul {
+
+  flex-direction: row;
+  gap: 40px;
+  
+
+}
+
+
+
+header nav ul a{
+  
+  font-size: 20px;
+
+}
+
+.req-btn{
+  
+  text-decoration: none;
+  color: #fff;
+display: block;
+width: 150px;
+height: 40px;
+border-radius: 25px;
+   background:linear-gradient( var(--bright-cyan), var(--lime-green)) ;
+   align-content: center;
+   text-align: center;
+ 
+  
+}
+
+
+
+  /* ====HERO SECTION ==== */
+    .hero-img{
+      min-height: 1000px;
+      position: relative;
+      z-index: 999;
+    }
+  
+  
+  
+    .hero{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .hero-img{
+      width: 50%;
+      order: 2;
+    }
+  
+    .hero-content{
+      width: 50%;
+      order: 1;
+      padding: 100px;
+    }
+
+    .hero-content h1{
+      font-size: 4.5rem;
+      line-height: 5rem;
+    }
+
+    .hero-content p {
+      color: var(--grayish-blue);
+      line-height: 2.5rem;
+     
+      font-size: 1.5rem;
+      padding: 0 40px 40px 40px;
+  }
+
+
+/* ====FEATURE SECTION ==== */
+
+.features .f-box {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+}
+
+
+/* ====BLOG SECTION ==== */
+
+.blogs {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+
+.blog h1{
+  
+  font-size: 3.2rem;
+
+
+  
+}
+
+
+/* ====FOOTER ==== */
+
+.footer-items {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+  }

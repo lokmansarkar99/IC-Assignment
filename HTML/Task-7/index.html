@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawyer Landing Page </title>
+     <link rel="stylesheet" href="./style.css">  
+ 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<!-- Header Section -->
+
+    <header class="container">
+        <div class="logo">
+            <img src="./img/Logo.png" alt="Logo">
+        </div>
+        <!-- <div class="hamburger-menu" ">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="close-menu" >
+            <i class="fas fa-times"></i>
+        </div> -->
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Apparentiships</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </nav>
+        <div class="sl-btn">
+            <a href="#" id="signup">Sign Up</a>
+            <a href="#" id="login">Login</a>
+        </div>
+    </header>
+
+
+    <section class="hero container">
+        
+        <div class="hero-text">
+            <h6>TRAINING TO SUCCEED
+
+            </h6>
+            <h1>Believe and you can achieve </h1>
+            <p>Learn any skill from comfort of your home
+                Anywhere and Anytime for only $10</p>
+            <div><a href="">Apply Now <i class="fa-solid fa-arrow-right"></i></a></div>
+        </div>
+
+      
+        <div class="hero-image">
+            <img src="./img/hero-img.png" alt="Hero Image">
+        </div>
+    </section>
+
+
+
+<section class="best-teacher container">
+
+<div class="teacher-cards">
+
+    <div class="congrats">
+        <img src="./img/tick.svg" alt="">
+        <div class="congrats-text">
+            <h6>Congratulations</h6>
+            <h6>Your admission completed </h6>
+        </div>
+    </div>
+
+    <div class="statis">
+        <h6>Teachers Statistics</h6>
+        <img src="./img/circle.svg" alt="">
+
+        <div class="percent">
+
+            <div class="first">
+                <h1>30%</h1>
+                <h5>Others Sector</h5>
+            </div>
+
+            <div class="second">
+                <h1>30%</h1>
+                <h5>IT Sector</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="level">
+<img src="./img/teacher.png" alt="">
+
+<h6>Music Mastery</h6>
+<h3>Basic to higher level</h3>
+<h4>Class 01</h4>
+
+<div class="join">
+   <h4>Today </h4>  <h4>07PM - 9PM </h4>
+    <a href="">JOIN NOW</a>
+</div>
+
+    </div>
+
+</div>
+
+
+
+
+<div class="teacher-info">
+
+<h1>Get the Best Class by the Best Teachers</h1>
+<p>Get your best class and gain the great thing from the best and well qualified experienced teachers all over the world and get shinny. We are a unique training provider willing to give you all the skills and experience you need to fulfil your future career</p>
+
+<a href="#">Read More  <i class="fa-solid fa-arrow-right"></i> </a>
+</div>
+
+
+</section>
+
+
+
+<section class="features container">
+
+<div class="feature">
+    <img src="./img/feature(1).svg" alt="Feature">
+    <h3>Experienced Teacher</h3>
+    <p>We teach in small groups with experienced, supportive staff who are trained to understand some of the problems our students face.  </p>
+</div>
+
+<div class="feature">
+    <img src="./img/feature(2).svg" alt="Feature">
+    <h3>Progressive Learning</h3>
+    <p>We teach in small groups with experienced, supportive staff who are trained to understand some of the problems our students face.  </p>
+</div>
+
+
+<div class="feature">
+    <img src="./img/feature(3).svg" alt="Feature">
+    <h3>Experienced Teacher</h3>
+    <p>We teach in small groups with experienced, supportive staff who are trained to understand some of the problems our students face.  </p>
+</div>
+
+
+
+</section>
+
+
+
+<section class="courses container">
+
+    <h1>Featured Course</h1>
+    <p>Everything you need to  when you're looking</p>
+
+<div class="course">
+<img src="./img/course.png" alt="Course">
+<h3>A Complete Web development</h3>
+<h4>Technology > Web development</h4>
+
+<div class="course-info">
+    <h6>$450</h6>
+    <h6>23.5 hours</h6>
+    <h6>$450</h6>
+</div>
+</div>
+
+</section>
+
+
+<script>
+const hamburger = document.querySelector('.hamburger-menu');
+const closeMenu = document.querySelector('.close-menu');
+const nav = document.querySelector('header nav');
+
+hamburger.addEventListener('click', () => {
+    nav.classList.add('show-menu');
+    closeMenu.classList.add('show-close');
+});
+
+closeMenu.addEventListener('click', () => {
+    nav.classList.remove('show-menu');
+    closeMenu.classList.remove('show-close');
+});
+
+</script>
+</body>
+</html>
