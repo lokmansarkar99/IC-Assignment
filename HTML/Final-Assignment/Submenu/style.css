@@ -1,0 +1,43 @@
+header {
+    background-color: tomato;
+  }
+  header nav ul {
+    display: flex;
+    gap: 1vw;
+    list-style: none;
+    padding: 0;
+  }
+
+  header nav ul li {
+    padding: 15px 30px;
+    position: relative;
+  }
+
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+
+  .submenu,
+  .subsubmenu {
+    display: none;
+    position: absolute;
+    background-color: tomato;
+    padding: 0;
+    list-style: none;
+    left: 0;
+    top: 100%;
+    min-width: 150px;
+  }
+
+  .subsubmenu {
+    left: 100%;
+    top: 0;
+    background-color: tomato;
+  }
+
+  .sub:hover .submenu,
+  .subsub:hover .subsubmenu {
+    display: block;
+  }

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-image: url('./landscape-4418215_1920.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    width: 320px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+}
+.input-group {
+    margin-bottom: 15px;
+    
+    
+}
+.input-group input {
+    background: rgba(126 , 148, 169, 0.4);
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+.input-group input::placeholder {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: rgba(126 , 148, 169, 0.3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+.login-btn:hover {
+    background: rgba(126 , 148, 169, 0.5);
+    transition: all 0.3s ease; 
+}
+
+p{
+    margin: 10px 0;
+}
+.social-login {
+    margin-top: 15px;
+
+}
+.social-login a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(126 , 148, 169, 0.3);
+    padding: 6px 8px;
+    border-radius: 5px;
+}
+
+
+.social-login a:hover {
+    background: rgba(126 , 148, 169, 0.5);
+    transition: all 0.3s ease; 
+}

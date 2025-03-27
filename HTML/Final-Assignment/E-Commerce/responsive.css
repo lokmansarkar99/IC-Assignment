@@ -1,0 +1,423 @@
+
+
+  
+@media  screen and (min-width: 1200px) {
+
+  .container{
+    width: 80%;
+  }
+    /* ====HEADER ==== */
+    #menu-btn{
+        display: none;
+      }
+      
+      header{
+      padding: 0px 60px;
+      align-items: center;
+      
+      }
+      
+      
+      .logo{
+        
+        object-fit: contain;
+      }
+      
+      header nav  {
+        display: block;
+        position: static;
+        width: inherit;
+        
+      }
+      
+      header nav ul {
+      
+        flex-direction: row;
+        gap: 40px;
+        
+      
+      }
+      
+      
+      
+      header nav ul a{
+        
+        font-size: 20px;
+      
+      }
+
+      .header-icons{
+        display: flex;
+        gap: 40px;
+    }
+      
+ 
+
+.mobile-bottom-menu{
+  display: none;
+}
+
+/*====HERO SECTION ==== */
+.hero{
+  min-height: 700px;
+
+
+}
+
+.hero .hero-container{
+  width: 35%;
+ padding: 20px;
+ display: inline-block;
+ position: absolute;
+right: 0;
+top: 220px;
+}
+
+.hero .hero-content {
+
+  
+  background-color: var(--shades-of-yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px ;
+
+
+}
+
+.hero .hero-content h6{
+
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 3px;
+color: var(--light-black);
+
+}
+
+.hero .hero-content h1{
+width: 80%;
+font-weight: 700;
+font-size: 52px;
+line-height: 55px;
+letter-spacing: 0px;
+color: var(--orange-brown);
+
+}
+
+
+.hero .hero-content p{
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0px;
+color: var(--light-black);
+}
+
+
+.hero .hero-content button{
+
+padding: 15px 42px;
+color: #fff;
+background-color: #B88E2F;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0px;
+
+
+}
+
+/* ====RANGE SECTION ====  */
+.range .range-content .range-cards{
+ 
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+ /* ====BEAUTIFUL ROOM SECTION ==== */
+
+
+
+  
+    .beautiful-room .br-contents{
+      padding: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .br-content:nth-child(2) {
+      display: flex;
+      
+      gap: 20px;
+    }
+
+    .beautiful-room  .br-content-img .br-inner-peace {
+
+      bottom: 80px;
+   
+  }
+    
+
+
+
+
+/* ============SHOP PAGE ============ */
+
+/* ============SHOP FILTER ============ */
+
+.shop-filter .filter-items {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* ============SHOP FEATURE============ */
+.shop-features .shop-features-contents {
+
+  flex-direction: row;
+
+  justify-content: space-around;
+}
+
+
+
+
+/* 
+ ============PRODUCT DETAIL PAGE ============  */
+
+  /* ===PRODUCT BREADCRUMB SECTION ====  */
+
+
+.product-breadcrumb  .breadcrumb-contents h4 span{
+
+  margin: 0 15px;
+
+}
+
+
+/* ===PRODUCT DETAIL SECTION ====  */
+
+.product-details .product-details-contents {
+display: flex;
+
+}
+  
+.product-details .product-details-contents .product-details-image {
+
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-details .product-details-contents .product-details-image .products-thumb {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-details .product-details-contents .product-details-text {
+flex: 1;
+}
+
+.product-details .product-details-contents .product-details-text .details-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 0px;
+  border-bottom: 1px solid #9F9F9F;
+}
+
+.product-details .product-details-contents .product-details-text .details-buttons button{
+  padding: 20px 50px;
+}
+
+.product-description .product-description-contents .headings {
+  display: flex;
+  justify-content: space-around;
+ 
+  padding: 20px 0px;
+  align-items: center;
+}
+
+
+.product-description .product-description-contents .description-image {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+
+  /* ============CART PAGE ============  */
+
+  .cart-section .cart-contents {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.cart-section .cart-contents .cart-table {
+ 
+flex: 2;
+
+
+}
+
+.cart-section .cart-contents .cart-table  table{
+  width: 100%;
+}
+  
+
+.cart-section .cart-contents .cart-checkout {
+flex: 1;
+}
+
+
+
+/* ========CHECKOUT PAGE ========= */
+
+.checkout-section .checkout-contents {
+  display: flex;
+  gap: 40px;
+  
+  }
+
+/* ========CONTACT PAGE ========= */
+
+  .contact-section .contact-contents .contact-items {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: space-around;
+}
+
+.contact-section .contact-contents .contact-items .contact-info, .contact-section .contact-contents .contact-items .contact-form  {
+ flex: 1;
+}
+
+.contact-section .contact-contents p.contact-para {
+width: 40%;
+margin: 0 auto;
+padding: 0px 0px 40px 0px  ;
+}
+
+
+/* =========BLOG PAGE ========= */
+
+
+.blog-section .blog-contents {
+display: flex;
+gap: 80px;
+}
+.blog-section .blog-contents .blogs {
+flex: 2;
+}
+
+.blog-section .blog-contents .sidebar{
+  flex: 1;
+}
+
+.blog-section .blog-contents .blogs .blog .blog-tags {
+padding: 10px 0;
+}
+.blog-section .blog-contents .blogs .blog h2 {
+ 
+  padding: 30px 0 10px 0;
+}
+
+
+
+
+
+
+
+
+/* =========ABOUT========= */
+.about-section {
+  padding: 60px 100px;
+}
+
+.about-contents .about-heading {
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+.about-contents .about-para {
+  width: 50%;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+/* About Items (Image + Info) */
+.about-contents .about-items {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.about-contents .about-items .about-image img {
+  max-width: 400px;
+}
+
+.about-contents .about-items .about-info {
+  text-align: left;
+  max-width: 500px;
+}
+
+.about-contents .about-items .about-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-contents .about-items .about-info p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Team Section */
+.team-section {
+  margin-top: 60px;
+}
+
+.team-section .team-heading {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+/* Team Members */
+.team-section .team-members {
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.team-section .team-members .team-member img {
+  width: 150px;
+  height: 150px;
+}
+
+.team-section .team-members .team-member h4 {
+  font-size: 18px;
+}
+
+.team-section .team-members .team-member p {
+  font-size: 14px;
+}
+
+
+
+
+
+}
