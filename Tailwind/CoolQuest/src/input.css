@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mint-500: oklch(0.72 0.11 178);
+
+  --color-hvac-green: #144326;
+  --color-hvac-light-green: #4ade80;
+  --color-hvac-dark-green: #0B5D1E;
+                    
+}
