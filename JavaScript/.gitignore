@@ -1,0 +1,75 @@
+# Ignore for node and tailwind project
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+/build
+.swc/
+
+# Production
+/dist
+/build
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Vercel
+.vercel
+.turbo
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Tailwind
+.output.css
+
+# Editor directories and files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+logs
+*.log
+
+# Cache
+.cache/
+.eslintcache
+.stylelintcache
